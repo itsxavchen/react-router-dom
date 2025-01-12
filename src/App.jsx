@@ -40,7 +40,7 @@ const App = () => {
           element={<PokemonDetails pokemon={pokemon} />}
         />
         {/* New, catch-all default route */}
-        {/* <Route path="*" element={<h2>Whoops, nothing here!</h2>} /> */}
+        <Route path="*" element={<h2>Whoops, nothing here!</h2>} />
       </Routes>
     </>
   );
